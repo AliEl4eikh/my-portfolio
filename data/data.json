@@ -1,0 +1,28 @@
+{
+   "data": [
+  {
+    "id": 0,
+    "projectTitle": "Kasper Template",
+    "projectImage": "/images/projects/kasper-template.png",
+    "projectDescription": "a responsive one-page website from a PSD template using HTML and CSS. with a focus on cross-browser compatibility and accessibility.",
+    "gitHubLink": "https://github.com/AliEl4eikh/HTML-CSS-template-2",
+    "websiteLink": "https://aliel4eikh.github.io/HTML-CSS-template-2"
+  },
+  {
+    "id": 1,
+    "projectTitle": "Leon Template",
+    "projectImage": "/images/projects/leon-template.png",
+    "projectDescription": "a responsive one-page website from a PSD template using HTML and CSS. with a focus on cross-browser compatibility and accessibility.",
+    "gitHubLink": "https://github.com/AliEl4eikh/HTML-CSS-template-1",
+    "websiteLink": "https://aliel4eikh.github.io/HTML-CSS-Template-1"
+  },
+  {
+    "id": 2,
+    "projectTitle": "Adopt Me",
+    "projectImage": "/images/projects/adopt-me.png",
+    "projectDescription": "Adopt me is a searchable database of animals who need homes using Reactjs",
+    "gitHubLink": "https://github.com/AliEl4eikh/adopt-me",
+    "websiteLink": "https://qwerrr.netlify.app/"
+  }
+]
+}
