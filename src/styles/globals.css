@@ -200,16 +200,6 @@ a
 .header nav ul.open li:first-of-type {
   margin-top: 30px;
 }
-/* 
-.header nav ul.open li::after {
-  content: "";
-    position: absolute;
-    height: 1px;
-    width: 80%;
-    background: white;
-    top: 19px;
-    left: 0;
-} */
 
 /* Medium devices (landscape tablets, 769px to 992px) */
 @media only screen and (min-width: 768px) {
@@ -269,7 +259,7 @@ a
     padding: 20px;
 }
 .hero-content h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 600;
@@ -281,6 +271,7 @@ a
     font-weight: 500;
     letter-spacing: 2px;
     margin-bottom: 1rem;
+    font-size: 1rem;
 }
 
 .hero-content p {
@@ -410,28 +401,6 @@ a
   background-color: #323232
 }
 
-/* .projects {
-  padding: 80px 80px;
-} */
-
-/* .projects .projects-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 50px;
-}
-
-@media only screen and (min-width: 768px) {
-  .projects .projects-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media only screen and (min-width: 992px) {
-  .projects .projects-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-} */
-
 .projects-grid {
   display: flex;
   justify-content: space-around;
@@ -448,12 +417,13 @@ a
 }
 
 .project .project-image {
-  height: 300px;
+  height: 250px;
   position: relative;
   background-position: center center;
   background-size: cover;
   border-top-right-radius: 25px;
   border-bottom-left-radius: 25px;
+  margin-bottom: 20px;
 }
 
 .project .project-image::after {

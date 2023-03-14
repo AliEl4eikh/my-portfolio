@@ -31,8 +31,8 @@ export const About = () => {
             <Image
               src={"/images/profile-pic.jpeg"}
               alt="ali's photo"
-              width={300}
-              height={300}
+              width={250}
+              height={250}
             />
           </div>
         </div>
