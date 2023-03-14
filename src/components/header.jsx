@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
@@ -21,6 +21,16 @@ export const Header = () => {
       });
     }
   }
+
+  useEffect(() => {
+    function handleResize() {
+      if (window.innerWidth > 769) {
+        setOpen(false);
+      }
+    }
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   const handleClick = () => {
     setOpen((open) => !open);
