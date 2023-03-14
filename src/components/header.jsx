@@ -1,7 +1,10 @@
 import React, { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 export const Header = () => {
   const [active, setActive] = useState("home");
+  const [open, setOpen] = useState(false);
 
   function scrollToSection(id) {
     setActive(id);
@@ -19,12 +22,21 @@ export const Header = () => {
     }
   }
 
+  const handleClick = () => {
+    setOpen((open) => !open);
+  };
+
   return (
     <header role="header" className="header">
       <div className="container">
         <h1>A E</h1>
         <nav>
-          <ul>
+          <FontAwesomeIcon
+            icon={faBars}
+            className="menu-icon"
+            onClick={handleClick}
+          />
+          <ul className={open ? "open" : ""}>
             <li
               className={active === "home" ? "active" : ""}
               onClick={() => scrollToSection("home")}

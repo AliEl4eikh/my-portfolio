@@ -10,7 +10,7 @@ export const Project = ({ project }) => {
     gitHubLink,
     websiteLink,
   } = project;
-  console.log(project);
+  
   return (
     <div className="project">
       <h4 className="project-title">{projectTitle}</h4>

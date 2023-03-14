@@ -6,9 +6,11 @@ export const Main = () => {
     <main className="hero">
       <div className="background-image" id="home"></div>
       <div className="hero-content">
-        <h1>Ali Elsheikh</h1>
-        <h2>Frontend Developer</h2>
-        <p>KEEP WORKING ON IT</p>
+        <div className="hero-text">
+          <h1>Ali Elsheikh</h1>
+          <h2>Frontend Developer</h2>
+          <p>KEEP WORKING ON IT</p>
+        </div>
       </div>
     </main>
   );
